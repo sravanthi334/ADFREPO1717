@@ -1,0 +1,17 @@
+{
+	"name": "pipeline for branch practice",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1o seconds",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 10
+				}
+			}
+		],
+		"annotations": []
+	}
+}
